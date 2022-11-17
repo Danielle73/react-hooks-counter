@@ -1,0 +1,25 @@
+h1, p {
+  font-family: Lato;
+  text-align: center;
+  font-size: 50px
+}
+
+#counter{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+button {
+  background-color: pink;
+  border: none;
+  box-shadow: 5px 5px orangered;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+}
+
+button:active {
+  transform: translateY(4px);
+}
